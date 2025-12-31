@@ -24,3 +24,56 @@ The goal of this repo is to strengthen my **Data Structures & Algorithms** skill
 
 ## 📂 Repository Structure (Planned)
 
+
+Leetcodesolution/
+├── arrays/
+├── strings/
+├── linked-list/
+├── stack-queue/
+├── recursion/
+├── dp/
+
+
+
+*(Currently growing — structure will improve as more problems are added)*
+
+---
+
+## ✨ Example Problem
+
+- **Print Like a Wave**
+  - File: `print_like_a_wave.cpp`
+  - Topic: Arrays / Matrix Traversal
+
+---
+
+## 🎯 Purpose of This Repository
+
+- Improve DSA fundamentals
+- Prepare for technical interviews
+- Track consistency and progress
+- Build a strong GitHub profile
+
+---
+
+## 📈 Progress
+
+- Problems Solved: *In progress*
+- Difficulty Levels: Easy → Medium → Hard
+
+---
+
+## 🤝 Contributions
+
+This is a personal learning repository, but suggestions and optimizations are always welcome.
+
+---
+
+## 📬 Contact
+
+- **GitHub:** [abhaykumardev](https://github.com/abhaykumardev)
+
+---
+
+⭐ If you find this repo helpful, feel free to star it!
+
