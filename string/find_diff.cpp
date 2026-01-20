@@ -1,6 +1,8 @@
 class Solution {
 public:
     char findTheDifference(string s, string t) {
+
+        //1st solution using unordered map 
         // unordered_map<char, int>mp;
 
         // for(char &ch : s){
