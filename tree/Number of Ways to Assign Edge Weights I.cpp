@@ -1,7 +1,6 @@
 class Solution {
 public:
     static const int MOD = 1e9 + 7;
-
     long long modPow(long long a, long long b) {
         long long res = 1;
         while (b) {
@@ -11,20 +10,15 @@ public:
         }
         return res;
     }
-
     int assignEdgeWeights(vector<vector<int>>& edges) {
         int n = edges.size() + 1;
-
         vector<vector<int>> g(n + 1);
-
         for (auto &e : edges) {
             g[e[0]].push_back(e[1]);
             g[e[1]].push_back(e[0]);
         }
-
         queue<pair<int,int>> q;
         vector<int> vis(n + 1, 0);
-
         q.push({1, 0});
         vis[1] = 1;
 
@@ -43,9 +37,9 @@ public:
                 }
             }
         }
-
         if (mxDepth == 0) return 0;
-
         return (int)modPow(2, mxDepth - 1);
     }
 };
+
+//leetcode 3558
