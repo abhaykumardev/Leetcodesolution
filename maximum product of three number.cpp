@@ -3,7 +3,6 @@ public:
     int maximumProduct(vector<int>& nums) {
         int max1 = INT_MIN, max2 = INT_MIN, max3 = INT_MIN;
         int min1 = INT_MAX, min2 = INT_MAX;
-
         for (int x : nums) {
 
             // Update three largest numbers
@@ -32,3 +31,5 @@ public:
                    max1 * min1 * min2);
     }
 };
+
+//leetcode 628
